@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!-- menu -->
+<odoo>
+      <!-- menu 1 -->
+    <menuitem name="base_11" id="menu_root_property_ads" web_icon="real_estate_ads,static/description/icon.png">
+      <manuitem id="menu_property_ads" name="Ads">
+        <manuitem id="menu_property" name="Property" action="real_estate_ads.action_property"/> 
+      </manuitem>
+      <!-- menu 2 -->
+       <manuitem id="menu_property_ads_settings" name="Settings">
+        <manuitem id="menu_property_type" name="Propert Types" action="real_estate_ads.action_property_type"/> 
+      </manuitem>
+    </menuitem>
+</odoo>
